@@ -64,7 +64,7 @@ function Header() {
         <Navbar className="mx-auto max-w-7xl shadow-none border-2 border-red-500 px-6 py-3">
             <div className="flex items-center justify-between text-blue-gray-900">
                 <div>
-                    
+                    <img src="../../public/Resources/Logo.png" alt="" />
                 </div>
                 <div className="hidden lg:block">
                     <NavList />
