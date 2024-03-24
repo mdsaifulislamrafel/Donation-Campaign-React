@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 const Hooks = () => {
     const [data, setData] = useState([]);
-    const [loading, setLoading] = useState(false);
+    const [loading, setLoading] = useState(true);
     useEffect(() => {
         const fetchData = async () => {
             const res = await fetch('/data.json');

@@ -5,12 +5,10 @@ import {
     Card,
     CardHeader,
     CardBody,
-    CardFooter,
     Typography,
-    Avatar,
-    Tooltip,
     Button,
 } from "@material-tailwind/react";
+import { savedLocalStorage } from "../utlity/localStorage";
 
 const DonationDetails = () => {
     const { id } = useParams();
@@ -18,13 +16,17 @@ const DonationDetails = () => {
     const { data, loading } = Hooks();
     const [singleData, setSingleData] = useState({});
 
+    const handleDonation = () => {
+        savedLocalStorage(singleData);
+    };
+
     useEffect(() => {
         if (data) {
             const singleData = data.find(item => item.id === intId);
             setSingleData(singleData);
         }
     }, [data, intId]);
-    const { image, title, description, category, categoryBg, textColor, cardBg } = singleData || {};
+    const { image, title, description, price, textColor } = singleData || {};
     return (
         <div className="max-w-7xl mx-auto">
             <Card className="mt-12 rounded-md w-full overflow-hidden">
@@ -38,7 +40,7 @@ const DonationDetails = () => {
                         src={image}
                     />
                     <div className="absolute bottom-0 bg-opacity-40 bg-black w-full h-28 p-8">
-                        <Button size="md" className="rounded-md" variant="gradient">gradient</Button>
+                        <Button onClick={handleDonation} style={{ backgroundColor: textColor }} size="md" className="rounded-md capitalize text-xl">Donate ${price}</Button>
                     </div>
                 </CardHeader>
                 <CardBody>

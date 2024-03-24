@@ -17,9 +17,15 @@ function NavList() {
                 color="blue-gray"
                 className="p-1 font-medium"
             >
-                <a href="#" className="flex items-center hover:text-blue-500 transition-colors">
-                    <NavLink to="/">Home</NavLink>
-                </a>
+                <NavLink to="/" className={({ isActive, isPending }) =>
+                    isActive
+                        ? "active text-red-500 underline"
+                        : isPending
+                            ? "pending"
+                            : "flex items-center hover:text-blue-500 transition-colors"
+                }> <a href="#"  >
+                        Home
+                    </a> </NavLink>
             </Typography>
             <Typography
                 as="li"
@@ -27,9 +33,15 @@ function NavList() {
                 color="blue-gray"
                 className="p-1 font-medium"
             >
-                <a href="#" className="flex items-center hover:text-blue-500 transition-colors">
-                    <NavLink to="/donation">Donation</NavLink>
-                </a>
+                <NavLink to="/donation" className={({ isActive, isPending }) =>
+                    isActive
+                        ? "active text-red-500 underline"
+                        : isPending
+                            ? "pending"
+                            : "flex items-center hover:text-blue-500 transition-colors"
+                }><a href="#">
+                        Donation
+                    </a></NavLink>
             </Typography>
             <Typography
                 as="li"
@@ -37,9 +49,15 @@ function NavList() {
                 color="blue-gray"
                 className="p-1 font-medium"
             >
-                <a href="#" className="flex items-center hover:text-blue-500 transition-colors">
-                    <NavLink to="/statistics">Statistics</NavLink>
-                </a>
+                <NavLink to="/statistics" className={({ isActive, isPending }) =>
+                    isActive
+                        ? "active text-red-500 underline"
+                        : isPending
+                            ? "pending"
+                            : "flex items-center hover:text-blue-500 transition-colors"
+                }><a href="#">
+                        Statistics
+                    </a></NavLink>
             </Typography>
         </ul>
     );
@@ -61,7 +79,7 @@ function Header() {
     }, []);
 
     return (
-        <Navbar className="mx-auto max-w-7xl shadow-none border-2 border-red-500 px-6 py-3">
+        <Navbar className="mx-auto max-w-7xl shadow-none border-2 px-6 py-3">
             <div className="flex items-center justify-between text-blue-gray-900">
                 <div>
                     <img src="../../public/Resources/Logo.png" alt="" />
