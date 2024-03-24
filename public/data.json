@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "image": "https://iili.io/JhN8ulj.png",
+    "title": "Education",
+    "category": "Education",
+    "categoryBg": "#aec8ff",
+    "description": "Education is the key to success, shaping individuals into knowledgeable beings capable of navigating the complexities of life and contributing meaningfully to society's advancement.",
+    "textColor": "#0052FF",
+    "cardBg": "#d9e5ff"
+  },
+  {
+    "id": 2,
+    "image": "https://iili.io/JhNSEIS.png",
+    "title": "Health",
+    "category": "Health",
+    "categoryBg": "#ffc3c5",
+    "description": "Health is wealth, encompassing physical, mental, and emotional well-being, fostering a fulfilling life where individuals can thrive and pursue their aspirations with vitality and resilience.",
+    "textColor": "#FF444A",
+    "cardBg": "#ffe3e4"
+  },
+  {
+    "id": 3,
+    "image": "https://iili.io/JhNSOkQ.png",
+    "title": "Clothing",
+    "category": "Clothing",
+    "categoryBg": "#d4ecc1",
+    "description": "Fashion is a form of self-expression, reflecting one's personality, culture, and individuality, allowing people to showcase their creativity and unique identity through the artistry of apparel and accessories.",
+    "textColor": "#79C23F",
+    "cardBg": "#ebf6e2"
+  },
+  {
+    "id": 4,
+    "image": "https://iili.io/JhN8D0b.png",
+    "title": "Food",
+    "category": "Food",
+    "categoryBg": "#fdd2c4",
+    "description": "Food is essential for survival, nourishing the body and soul, providing sustenance, pleasure, and cultural significance, fostering connections among individuals and communities through shared culinary experiences and traditions.",
+    "textColor": "#F87147",
+    "cardBg": "#feeae3"
+  },
+  {
+    "id": 5,
+    "image": "https://iili.io/JhN8ulj.png",
+    "title": "Education",
+    "category": "Education",
+    "categoryBg": "#aec8ff",
+    "description": "Education empowers individuals, equipping them with knowledge, skills, and perspectives necessary to navigate the complexities of the modern world, fostering personal growth, societal progress, and global understanding.",
+    "textColor": "#0052FF",
+    "cardBg": "#d9e5ff"
+  },
+  {
+    "id": 6,
+    "image": "https://iili.io/JhNSEIS.png",
+    "title": "Health",
+    "category": "Health",
+    "categoryBg": "#ffc3c5",
+    "description": "A healthy lifestyle leads to happiness, promoting physical fitness, mental clarity, and emotional well-being, enabling individuals to enjoy life to the fullest and pursue their passions with energy and enthusiasm.",
+    "textColor": "#FF444A",
+    "cardBg": "#ffe3e4"
+  },
+  {
+    "id": 7,
+    "image": "https://iili.io/JhNSOkQ.png",
+    "title": "Clothing",
+    "category": "Clothing",
+    "categoryBg": "#d4ecc1",
+    "description": "Clothing reflects personality, serving as a canvas for self-expression and creativity, allowing individuals to communicate their identity, values, and aspirations through the aesthetics and symbolism of fashion.",
+    "textColor": "#79C23F",
+    "cardBg": "#ebf6e2"
+  },
+  {
+    "id": 8,
+    "image": "https://iili.io/JhN8D0b.png",
+    "title": "Food",
+    "category": "Food",
+    "categoryBg": "#fdd2c4",
+    "description": "Delicious food brings people together, fostering social bonds, cultural exchange, and shared memories, enriching lives with sensory delights and culinary adventures that transcend geographical and cultural boundaries.",
+    "textColor": "#F87147",
+    "cardBg": "#feeae3"
+  },
+  {
+    "id": 9,
+    "image": "https://iili.io/JhN8ulj.png",
+    "title": "Education",
+    "category": "Education",
+    "categoryBg": "#aec8ff",
+    "description": "Education opens doors to opportunities, empowering individuals to fulfill their potential, pursue their passions, and make meaningful contributions to society, driving innovation, progress, and positive change in the world.",
+    "textColor": "#0052FF",
+    "cardBg": "#d9e5ff"
+  },
+  {
+    "id": 10,
+    "image": "https://iili.io/JhNSEIS.png",
+    "title": "Health",
+    "category": "Health",
+    "categoryBg": "#ffc3c5",
+    "description": "Prevention is better than cure, emphasizing the importance of proactive measures to maintain health and well-being, including regular exercise, balanced nutrition, stress management, and preventive healthcare practices.",
+    "textColor": "#FF444A",
+    "cardBg": "#ffe3e4"
+  },
+  {
+    "id": 11,
+    "image": "https://iili.io/JhNSOkQ.png",
+    "title": "Clothing",
+    "category": "Clothing",
+    "categoryBg": "#d4ecc1",
+    "description": "Dress to impress, leveraging fashion as a tool for confidence, self-assurance, and social influence, allowing individuals to make a statement and leave a lasting impression through their attire and personal style choices.",
+    "textColor": "#79C23F",
+    "cardBg": "#ebf6e2"
+  },
+  {
+    "id": 12,
+    "image": "https://iili.io/JhN8D0b.png",
+    "title": "Food",
+    "category": "Food",
+    "categoryBg": "#fdd2c4",
+    "description": "Taste the flavors of life, savoring the diversity and richness of culinary experiences from around the world, exploring new cuisines, ingredients, and culinary traditions that tantalize the taste buds and nourish the soul.",
+    "textColor": "#F87147",
+    "cardBg": "#feeae3"
+  }
+]

@@ -10,6 +10,7 @@ import Home from './Home/Home';
 import Donation from './Donation/Donation';
 import Statistics from './Statistics/Statistics';
 import Error from './Error/Error';
+import DonationDetails from './DonationDetails/DonationDetails';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
       {
         path: "/statistics",
         element: <Statistics></Statistics>
+      },
+      {
+        path: "/donation-details/:id",
+        element: <DonationDetails></DonationDetails>
       }
     ]
   },
